@@ -1,0 +1,38 @@
+<EmployeeList>
+<Employee>
+<Person>
+  <name>Alice</name>
+  <age>30</age>
+  <address>
+    <city>New York</city>
+    <zip>10001</zip>
+  </address>
+  <contacts>
+    <email>alice@example.com</email>
+    <phone>123-456-7890</phone>
+    <emergencyContact>
+      <name>John</name>
+      <phone>911</phone>
+    </emergencyContact>
+  </contacts>
+</Person>
+</Employee>
+<Employee>
+<Person>
+  <name>Bob</name>
+  <age>25</age>
+  <address>
+    <city>New Delhi</city>
+    <zip>110001</zip>
+  </address>
+  <contacts>
+    <email>bob@example.com</email>
+    <phone>912-456-7890</phone>
+    <emergencyContact>
+      <name>Bobby</name>
+      <phone>100</phone>
+    </emergencyContact>
+  </contacts>
+</Person>
+</Employee>
+</EmployeeList>

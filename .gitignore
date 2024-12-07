@@ -1,0 +1,9 @@
+/target/classes/com/data/converters/CsvToCurlGenerators.class
+/target/classes/com/data/converters/CsvToJsonGenerators.class
+/target/classes/com/data/converters/CsvToSqlGenerators.class
+/target/classes/com/data/converters/JsonToJavaClassGenerators.class
+/target/classes/com/data/converters/JsonToXmlGenerators.class
+/target/test-classes/com/data/test/converters/Pojo.class
+/target/test-classes/com/data/test/converters/TestConverters.class
+/target/classes/com/data/converters/XmlToJsonGenerator.class
+/target/classes/com/data/converters/YamlToJsonGenerator.class
