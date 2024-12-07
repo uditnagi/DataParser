@@ -13,7 +13,7 @@ import java.util.stream.IntStream;
 public class CsvToCurlGenerators {
 
     /**
-     * Generates curl from CSV where each row's represents a curl with field becomes queryParams.
+     * Generates curl from CSV where each row converts into a curl and row-fields become queryParams.
      * e.g.
      * name,age
      * Alice,20
