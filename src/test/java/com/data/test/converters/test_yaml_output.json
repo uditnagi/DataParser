@@ -1,0 +1,58 @@
+{
+  "person" : {
+    "name" : "Alice",
+    "age" : 30,
+    "address" : {
+      "city" : "New York",
+      "zip" : 10001
+    },
+    "contacts" : [ {
+      "type" : "email",
+      "value" : "alice@example.com"
+    }, {
+      "type" : "phone",
+      "value" : "123-456-7890"
+    }, {
+      "type" : "emergencyContact",
+      "value" : {
+        "name" : "John",
+        "phone" : 911
+      }
+    } ],
+    "interests" : {
+      "hobbies" : [ "reading", "cycling", "hiking" ],
+      "skills" : {
+        "programming_languages" : [ {
+          "name" : "Python",
+          "proficiency" : "advanced"
+        }, {
+          "name" : "Java",
+          "proficiency" : "intermediate"
+        } ],
+        "soft_skills" : [ {
+          "name" : "Communication",
+          "proficiency" : "expert"
+        }, {
+          "name" : "Time management",
+          "proficiency" : "proficient"
+        } ]
+      }
+    }
+  },
+  "employees" : [ {
+    "id" : 1,
+    "name" : "Bob",
+    "position" : "Developer",
+    "department" : "IT"
+  }, {
+    "id" : 2,
+    "name" : "Carol",
+    "position" : "Manager",
+    "department" : "HR"
+  }, {
+    "id" : 3,
+    "name" : "Dave",
+    "position" : "Analyst",
+    "department" : "Finance"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "Employee" : [ {
+    "Person" : {
+      "name" : "Alice",
+      "age" : "30",
+      "address" : {
+        "city" : "New York",
+        "zip" : "10001"
+      },
+      "contacts" : {
+        "email" : "alice@example.com",
+        "phone" : "123-456-7890",
+        "emergencyContact" : {
+          "name" : "John",
+          "phone" : "911"
+        }
+      }
+    }
+  }, {
+    "Person" : {
+      "name" : "Bob",
+      "age" : "25",
+      "address" : {
+        "city" : "New Delhi",
+        "zip" : "110001"
+      },
+      "contacts" : {
+        "email" : "bob@example.com",
+        "phone" : "912-456-7890",
+        "emergencyContact" : {
+          "name" : "Bobby",
+          "phone" : "100"
+        }
+      }
+    }
+  } ]
+}
