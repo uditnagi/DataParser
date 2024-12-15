@@ -1,6 +1,6 @@
 # Data Parser Tool:
 
- Its a utility tool which does variety of data parsing tasks.
+ Its a library of utility tools which does variety of data parsing tasks.
 
 ### CSV Parsers:
  - CSV to SQL Generator: Read CSV file to generate Sqls with INSERT/MERGE query.
