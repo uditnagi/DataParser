@@ -46,11 +46,12 @@ public class CsvToJsonGenerators {
         CsvMapper csvMapper = new CsvMapper();
 
 
-        MappingIterator<T> iterator = csvMapper
+        try (MappingIterator<T> iterator = csvMapper
                 .readerFor(pojo)
                 .with(csvSchema)
-                .readValues(file);
-        return iterator.readAll().stream().map((T obj) -> removeEmptyFields(obj, pojo, objectMapper)).toList();
+                .readValues(file)) {
+            return iterator.readAll().stream().map((T obj) -> removeEmptyFields(obj, pojo, objectMapper)).toList();
+        }
     }
 
     private static <T> T removeEmptyFields(T obj, Class<T> pojo, ObjectMapper mapper) {
