@@ -1,6 +1,10 @@
 # Data Parser Tool:
 
- Its a library of utility tools which does variety of data parsing tasks.
+## Overview
+The Data Parser Tool is a library of utility tools designed to perform a variety of data parsing tasks. This tool is intended to simplify the process of working with different data formats, making it easier to convert and manipulate data as needed.
+
+## Features
+The Data Parser Tool offers the following features:
 
 ### CSV Parsers:
  - CSV to SQL Generator: Read CSV file to generate Sqls with INSERT/MERGE query.
@@ -17,3 +21,8 @@
 ### YAML Parser: 
 - YAML to JSON Generator.
 
+## Usage
+To use the Data Parser Tool, simply navigate to the desired feature and follow the instructions provided.
+
+## License
+The Data Parser Tool is licensed under Apache License 2.0.
