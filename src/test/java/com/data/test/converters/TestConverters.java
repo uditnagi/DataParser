@@ -81,7 +81,7 @@ public class TestConverters {
 
     @Test
     public void testJsonToJavaClassGenerator(){
-        String jsonFile ="src/test/java/com/data/test/converters/generatedClass/input.json";
+        String jsonFile ="src/test/java/com/data/test/converters/generatedClass/Input.json";
         String classFile ="src/test/java/com/data/test/converters/generatedClass/";
 
         String jsonString =
@@ -94,7 +94,7 @@ public class TestConverters {
 
     @Test
     public void testJsonToXmlGenerator(){
-        String jsonFile ="src/test/java/com/data/test/converters/generatedClass/input.json";
+        String jsonFile ="src/test/java/com/data/test/converters/generatedClass/Input.json";
         String classFile ="src/test/java/com/data/test/converters/generatedClass/output.xml";
 
         String outputString =
